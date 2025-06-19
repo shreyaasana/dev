@@ -1,8 +1,18 @@
-    x = 5
-    y = 10
+# Swap two variables
 
-    temp = x
-    x = y
-    y = temp
+# Initialize variables
+a = 5
+b = 10
 
-    print(f"After swapping: x = {x}, y = {y}")
+print("Before swap:")
+print("a =", a)
+print("b =", b)
+
+# Swap using a temporary variable
+temp = a
+a = b
+b = temp
+
+print("After swap:")
+print("a =", a)
+print("b =", b)
